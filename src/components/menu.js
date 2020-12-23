@@ -29,7 +29,7 @@ const useStyles = makeStyles({
     button:{
         marginBottom:"10px",
         color:"white",
-        fontWeight:"bold",
+        fontWeight:"Bold",
         borderRadius: 10
     },
     regime:{
@@ -37,8 +37,8 @@ const useStyles = makeStyles({
         color:"white",
         fontWeight:"bold",
         borderRadius: 10,
-        fontSize:24,
-        fontFamily:'Amatic'
+        fontSize:35,
+        fontFamily:'Amatic SC'
 
     },
     test:{
