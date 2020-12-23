@@ -24,13 +24,14 @@ const useStyles = makeStyles({
         // paddingBottom:'10%',
         // paddingRight:'5%',
         // padding:'5%',
-        opacity:0.7,
     },
     button:{
         marginBottom:"10px",
         color:"white",
         fontWeight:"Bold",
-        borderRadius: 10
+        borderRadius: 10,
+        backgroundColor:"rgba(244, 201, 74, 0.8)",
+        fontSize:13,
     },
     regime:{
         marginBottom:"10px",
@@ -38,8 +39,8 @@ const useStyles = makeStyles({
         fontWeight:"bold",
         borderRadius: 10,
         fontSize:35,
-        fontFamily:'Amatic SC'
-
+        fontFamily:'Amatic SC',
+        backgroundColor:"rgba(244, 201, 74, 0.8)"
     },
     test:{
         flex:1,
@@ -48,8 +49,7 @@ const useStyles = makeStyles({
         paddingBottom:'10%',
         paddingRight:'5%',
         padding:'5%',
-        opacity:0.8,
-        backgroundColor:"#4FAC8F"
+        backgroundColor:"rgba(79, 172, 143, 0.6)"
     }
 });
 const Menu = () => {
